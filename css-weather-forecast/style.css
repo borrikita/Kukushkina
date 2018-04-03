@@ -1,0 +1,89 @@
+html {
+    height: 100%;
+}
+body {
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    background: #0099cc;
+    border: 25px solid #0081ab;
+    min-height: 100%;
+    margin: 0;
+    box-sizing: border-box;
+}
+footer, header {
+    width: 60%;
+    margin: 0 auto; /*выравнивание footer и header над/под списком*/
+}
+h1,p {
+    color: white;
+}
+p {
+    font-size: 18px;
+}
+.cities {
+    font-size: 0px; /*чтобы убрать пробелы между блоками*/
+    text-align: center;
+    border: 3px solid white;
+    padding: 0;
+    width: 60%;
+    box-sizing: border-box;
+    margin: 20px auto;
+    background: white;
+}
+li {
+    display: inline-block;
+    font-size: 20px;   /*установить размер шрифта не 0*/
+    width: 25%;
+    border: 3px solid white;
+    color: white;
+    box-sizing: border-box;
+    height: 120px;
+}
+.cities:hover li {
+    opacity: 0.6;  /*прозрачность элементов списка при наведении*/
+}
+.cities li:hover {
+    opacity: 1; /*при наведении на элемент полная не прозрачность*/
+}
+.pogoda {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column; /*выстраивает span один под другим*/
+}
+/*цвета всем блокам*/
+.city1 {
+    background: #0099cc;
+    width: 50%;
+}
+.city2 {
+    background: #00cdcb;
+}
+.city3 {
+    background: #9f6498;
+}
+.city4{
+    background: #cf4147;
+}
+.city5 {
+    background: #f16149;
+}
+.city6 {
+    background: #ffc962;
+}
+.city7 {
+    background: #8bcc97;
+}
+.city8 {
+    background: #589998;
+}
+.city9 {
+    background: #d86198;
+    width: 50%;
+}
+.city10 {
+    background: #009965;
+}
+.city11 {
+    background: #666698;
+    width: 100%;
+}
