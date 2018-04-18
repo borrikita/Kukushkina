@@ -1,0 +1,144 @@
+.board {
+    border: 2px solid black;
+    position: relative;
+    display: inline-block;
+    background: #fffda4;
+}
+.row {
+    font-size: 0;
+    width: 100%;
+    position: relative;
+}
+.cell {
+    width: 8vw;
+    height: 8vw;
+    background: #000;
+    display: inline-block;
+}
+.row:nth-child(even) .cell {
+    margin-left: 8vw;
+}
+.row:nth-child(odd) .cell {
+    margin-right: 8vw;
+}
+.redcircle1, .redcircle2, .redcircle3 {
+    width: 64vw;
+    height: 8vw;
+    position: absolute;
+    top:0;
+    padding: 0;
+    font-size: 0;
+}
+.redcircle2{
+    top:8vw;
+}
+.redcircle3{
+    top:16vw;
+}
+.redcircle1 li:before, .redcircle2 li:before, .redcircle3 li:before   {
+    content: '';
+    width: 6vw;
+    height: 6vw;
+    background: #cd0028;
+    position: absolute;
+    top:1vw;
+    left: 1vw;
+    border-radius: 50%;
+}
+
+.redcircle1 li, .redcircle2 li, .redcircle3 li {
+    width: 8vw;
+    height: 8vw;
+    position: relative;
+    display: inline-block;
+}
+.redcircle1 .circle  {
+    margin-right: 8vw;
+}
+.redcircle2 .circle  {
+    margin-left: 8vw;
+}
+.redcircle3 .circle {
+    margin-right: 8vw;
+}
+
+
+
+.whitecircle1, .whitecircle2, .whitecircle3 {
+    width: 64vw;
+    height: 8vw;
+    position: absolute;
+    bottom: 0;
+    padding: 0;
+    font-size: 0;
+}
+.whitecircle2{
+    bottom:8vw;
+}
+.whitecircle3{
+    bottom:16vw;
+}
+.whitecircle1 li:before, .whitecircle2 li:before, .whitecircle3 li:before   {
+    content: '';
+    width: 6vw;
+    height: 6vw;
+    background: #b9b9b9;
+    position: absolute;
+    top:1vw;
+    left: 1vw;
+    border-radius: 50%;
+}
+
+.whitecircle1 li, .whitecircle2 li, .whitecircle3 li {
+    width: 8vw;
+    height: 8vw;
+    position: relative;
+    display: inline-block;
+}
+.whitecircle1 .circle  {
+    margin-left: 8vw;
+}
+.whitecircle2 .circle  {
+    margin-right: 8vw;
+}
+.whitecircle3 .circle {
+    margin-left: 8vw;
+}
+
+/*вариант с урока*/
+/*
+.board {
+    position: relative;
+    width: 80vw;
+    margin: 10vw auto;
+    border: 1px solid black;
+}
+.border:before {
+    content: '';
+    display: block;
+    padding-top: 100%;
+}
+.cells {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.row {
+    height: 12.5%;
+    font-size: 0;
+}
+.cell {
+    height: 100%;
+    width: 12.5%;
+    background: #000000;
+    display: inline-block;
+}
+.row:nth-child(even) .cell {
+    margin-left: 12.5%;
+}
+.row:nth-child(odd) .cell {
+    margin-right: 12.5%;
+}
+*/
