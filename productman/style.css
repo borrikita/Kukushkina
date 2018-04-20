@@ -163,6 +163,7 @@ h2 {
 }
 .pic3 {
     margin: 0 35px 0 70px;
+
 }
 .pic4 {
     margin-right: 35px;
@@ -170,6 +171,53 @@ h2 {
 .pic5 {
     margin-right: 70px;
 }
+
+/*hover на картинку*/
+.pic3 {
+    position: relative;
+    transition: .3s;
+}
+.pic3 img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .3s;
+}
+.pic3hover {
+    position: absolute;
+    opacity: 0;
+    font-size: 30px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    left: 40px;
+    bottom: 65px;
+    transition: .3s;
+    margin-bottom: 17px;
+}
+.pic3:hover .pic3hover {
+    display: block;
+    opacity: 1;
+}
+.pic3:hover img {
+    opacity: 0;
+}
+.pic3:hover {
+    background: red;
+    border-radius: 5px;
+}
+.pic3hover:after {
+    content: '';
+    width: 93px;
+    height: 5px;
+    background: white;
+    display: block;
+    position: absolute;
+    top: 95px;
+}
+
+
+
 .ncontent {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
@@ -228,7 +276,15 @@ input[type="submit"] {
     border-bottom-right-radius: 50px;
     background: #e10011;
     color: #fff;
+
 }
+.fa-caret-right {
+    position: absolute;
+    color: white;
+    bottom: 28px;
+    right: 44px;
+}
+
 .social {
     background: #f0f0f0;
     display: flex;
