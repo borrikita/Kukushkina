@@ -1,0 +1,55 @@
+
+@font-face {
+    font-family: 'Miso';
+    src: url('Miso.eot?#iefix') format('embedded-opentype'),  url('Miso.woff') format('woff'), url('Miso.ttf')  format('truetype'), url('Miso.svg#Miso') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.coffee {
+    background: #fdde7e;
+    display: flex;
+    width: 1200px;
+    height: 600px;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Miso';
+}
+.bronze, .silver, .gold  {
+    background: #fff;
+    box-shadow: 1px 1px 5px 0 rgba(0,0,0,0.75);
+    border-radius: 3px;
+    text-align: center;
+    color: #333;
+}
+
+.bronze, .silver {
+    height: 440px;
+    width: 360px;
+}
+.gold {
+    height: 505px;
+    width: 360px;
+}
+.price {
+
+    font-size: 70px;
+    font-weight: bold;
+    padding-top: 41px;
+    color: #02995b;
+}
+h1 {
+    font-size: 56px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.gold img {
+    margin-top: 30px;
+}
+.gold h1 {
+    margin-top: 47px;
+}
+.cofprice {
+    font-size: 25px;
+    max-width: 155px;
+    margin: auto;
+}
