@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,700');
+@import url('http://allfont.ru/allfont.css?fonts=aleo-regular');
+
+body {
+    margin: 15px;
+
+}
+header {
+    background: url("img/header.jpg") no-repeat right top;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    /*padding-bottom: 200px;*/
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+.search {
+    width: 1110px;
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+}
+.search span, .search h1, input, .scroll, .logo, .info, .hotelitems1, .hotelitems2, .comment, footer {
+    font-family: 'Josefin Sans', sans-serif;
+}
+button, .menu_item, .info h2, .hiw img, .hotelitems1 a, .hotelitems2 a, .reviews h2 {
+    font-family: 'aleo-regular', serif;
+}
+.search h1 {
+    margin: 0;
+    padding-top: 265px;
+    font-weight: 700;
+    font-size: 46px;
+    text-transform: uppercase;
+    letter-spacing: 4.7px;
+}
+.search span {
+    font-size: 22px;
+    letter-spacing: .26em;
+
+}
+.hsearch {
+    margin: 50px auto;
+    width: 650px;
+
+}
+form {
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+input {
+    width: 490px;
+    height: 54px;
+    text-align: center;
+    font-size: 14px;
+
+}
+button {
+    width: 150px;
+    height: 52px;
+    background: #5474fd;
+    color: white;
+    font-size: 16px;
+    position: relative;
+    margin-right: 2px;
+}
+
+.hsearch .fa-search {
+    position: absolute;
+    color: white;
+    bottom: 24px;
+    right: 20px;
+}
+
+input, button {
+    border: none;
+    outline: none;
+}
+
+.menu {
+    display: inline-block;
+
+}
+.menu_item {
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 25px   ;
+}
+.logo {
+    font-size: 24px;
+    letter-spacing: 1.7px;
+}
+.logo, .menu_item a {
+    text-decoration: none;
+    color: #fff;
+
+}
+.mainmenu {
+    height: 70px;
+    background: #5474fd;
+    padding: 0 18%;
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.scroll {
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    margin: auto;
+}
+a:hover {
+    color: darkblue;
+}
+.wcu {
+    background: url("img/block.jpg") no-repeat right top;
+    background-size: cover;
+    height: 680px;
+
+}
+.wcu-item {
+    width: 1110px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.info, .pic {
+    width: 540px;
+}
+.info {
+    color: white;
+}
+.info h2 {
+    margin-top: 200px;
+    font-size: 40px;
+    font-weight: normal;
+    margin-bottom: 54px;
+
+}
+.info span {
+    font-weight: normal;
+    line-height: 1.65;
+}
+.ep, .book {
+    width: 225px;
+    height: 60px;
+    background: #5474fd;
+    color: white;
+    text-decoration: none;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    line-height: 60px;
+    margin-top: 28px;
+}
+.ep:hover, .book:hover, button:hover {
+    background: darkblue;
+    color: #8bcc97;
+}
+.pic img {
+    width: 350px;
+}
+.pic {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+}
+.pic2 {
+    margin-left: auto;
+    margin-top: 5px;
+}
+.pic1 {
+    margin-left: 65px;
+}
+.hiw {
+    background: #333;
+}
+.hiwitems {
+    height: 336px;
+    display: flex;
+    justify-content: space-around;
+    width: 1110px;
+    margin: 0 auto;
+    font-size: 39px;
+    color: #e8e8e8;
+    align-items: center;
+}
+.hiw img {
+    width: 66px;
+    margin-left: 40%;
+    margin-bottom: 10px;
+}
+.hotels {
+    background: url("img/block2.jpg") no-repeat right top;
+    background-size: cover;
+    height: 1400px;
+    box-sizing: border-box;
+
+}
+.hotelitems {
+    width: 1110px;
+
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+
+}
+.hotelitems1, .hotelitems2 {
+    background: #2f2826;
+    opacity: .9;
+    width: 540px;
+    height: 370px;
+}
+.hotelitems1 h3, .hotelitems2 h3 {
+    margin-top: 30px;
+    margin-bottom: 27px;
+}
+.hotelitems1 p, .hotelitems2 p {
+    line-height: 25px;
+    font-size: 16px;
+    letter-spacing: -0.9px;
+}
+.hotelitems1 {
+    margin-top: 227px;
+}
+.hotelitems2 {
+    margin-top: 930px;
+}
+.hotelitems span {
+    color: #ebebeb;
+    display: block;
+    margin: 50px 24px;
+}
+.reviews { background: url("img/block3.jpg") no-repeat right top;
+    background-size: cover;
+    box-sizing: border-box;
+    height: 730px;
+}
+.reviewsitems {
+    width: 1110px;
+    display: flex;
+    margin: 0 auto;
+}
+.reviews h2 {
+    margin: 0;
+    padding-top: 120px;
+    padding-bottom: 100px;
+    text-align: center;
+    color: #fff;
+    font-size: 36px;
+}
+.comment {
+    background: #333;
+    height: 284px;
+    width: 667px;
+    padding: 50px 50px 40px 60px;
+    box-sizing: border-box;
+    color: #fefefe;
+}
+.comment h3 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 28px;
+}
+
+#rev {
+    line-height: 1.8;
+    font-size: 14.9px;
+    text-indent: 30px;
+    margin-top: 0;
+}
+.quote {
+    margin-bottom: 0;
+    color: #5474fd ;
+}
+.fa-quote-left {
+    font-size: 20px;
+}
+
+footer {
+    height: 270px;
+    background: #232323;
+    text-align: center;
+
+    color: #fff;
+    margin: 0 auto;
+}
+footer h1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding-top: 120px;
+    padding-bottom: 10px;
+    letter-spacing: 2.3px;
+}
+footer span {
+    font-size: 16px;
+    letter-spacing: .08em;
+
+}
+footer ul {
+    margin: 29px;
+    padding: 0;
+
+}
+footer ul li {
+    display: inline;
+    margin: 10px;
+}
+li > a {
+    text-decoration: none;
+    color: #e8e8e8;
+}
+i:hover {
+    color: #5474fd;
+}
+
+
