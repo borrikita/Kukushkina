@@ -9,11 +9,29 @@ div {
     background: hotpink;
     margin: 50px;
     display: inline-block;
-    font-size: 16px;
+    font-size: 16;
+    em /*от родительского*/
+
+    rem /*от размера основного шрифта 1em=16px*/
 }
 div:first-child {
     width: 200px;
 }
 div:nth-child(2) {
+    width: 50%;
+    width: 50vw;
+    width: 50vh; /**/
     width: calc(100% - 200px - 200px);
+}
+
+
+
+ul {
+    font-size: 5.5em;
+}
+li {
+    font-size: 0.5rem;
+}
+li:last-of-type {
+    font-size: .5em;
 }
